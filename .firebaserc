@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tarjetacredito-edc5a": {
+      "hosting": {
+        "TarjetaCredito": [
+          "tarjetacredito-edc5a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tarjetacredito-edc5a"
+  }
+}

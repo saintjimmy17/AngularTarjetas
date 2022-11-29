@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "TarjetaCredito:build:production",
+            "firebaseProject": "tarjetacredito-edc5a",
+            "firebaseHostingSite": "tarjetacredito-edc5a"
+          }
         }
       }
     }
